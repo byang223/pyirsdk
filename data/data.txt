@@ -1,0 +1,857 @@
+---
+WeekendInfo:
+ TrackName: skidpad
+ TrackID: 143
+ TrackLength: 0.72 km
+ TrackLengthOfficial: 1.61 km
+ TrackDisplayName: Centripetal Circuit
+ TrackDisplayShortName: Centripetal Circuit
+ TrackConfigName: 
+ TrackCity: Parts Unknown
+ TrackCountry: USA
+ TrackAltitude: 302.00 m
+ TrackLatitude: 42.596953 m
+ TrackLongitude: -83.684817 m
+ TrackNorthOffset: 1.5708 rad
+ TrackNumTurns: 1
+ TrackPitSpeedLimit: 72.00 kph
+ TrackType: mile oval
+ TrackDirection: left
+ TrackWeatherType: Generated / Dynamic Sky
+ TrackSkies: Clear
+ TrackSurfaceTemp: 33.33 C
+ TrackAirTemp: 18.33 C
+ TrackAirPressure: 28.86 Hg
+ TrackWindVel: 1.10 m/s
+ TrackWindDir: 5.82 rad
+ TrackRelativeHumidity: 89 %
+ TrackFogLevel: 0 %
+ TrackCleanup: 0
+ TrackDynamicTrack: 0
+ TrackVersion: 2022.05.24.03
+ SeriesID: 0
+ SeasonID: 0
+ SessionID: 0
+ SubSessionID: 0
+ LeagueID: 0
+ Official: 0
+ RaceWeek: 0
+ EventType: Test
+ Category: Oval
+ SimMode: full
+ TeamRacing: 0
+ MinDrivers: 0
+ MaxDrivers: 0
+ DCRuleSet: None
+ QualifierMustStartRace: 0
+ NumCarClasses: 1
+ NumCarTypes: 1
+ HeatRacing: 0
+ BuildType: Release
+ BuildTarget: Members
+ BuildVersion: 2022.06.16.01
+ WeekendOptions:
+  NumStarters: 0
+  StartingGrid: single file
+  QualifyScoring: best lap
+  CourseCautions: off
+  StandingStart: 0
+  ShortParadeLap: 0
+  Restarts: single file
+  WeatherType: Generated / Dynamic Sky
+  Skies: Partly Cloudy
+  WindDirection: N
+  WindSpeed: 3.22 km/h
+  WeatherTemp: 25.56 C
+  RelativeHumidity: 55 %
+  FogLevel: 0 %
+  TimeOfDay: 6:40 pm
+  Date: 2022-06-04
+  EarthRotationSpeedupFactor: 1
+  Unofficial: 0
+  CommercialMode: consumer
+  NightMode: variable
+  IsFixedSetup: 0
+  StrictLapsChecking: default
+  HasOpenRegistration: 0
+  HardcoreLevel: 1
+  NumJokerLaps: 0
+  IncidentLimit: unlimited
+  FastRepairsLimit: unlimited
+  GreenWhiteCheckeredLimit: 0
+ TelemetryOptions:
+  TelemetryDiskFile: "C /Users/Bryan/Documents/iRacing/telemetry/audir18_skidpad 2022-06-19 17-23-29.ibt"
+
+SessionInfo:
+ Sessions:
+ - SessionNum: 0
+   SessionLaps: unlimited
+   SessionTime: unlimited
+   SessionNumLapsToAvg: 0
+   SessionType: Offline Testing
+   SessionTrackRubberState: clean
+   SessionName: TESTING
+   SessionSubType: 
+   SessionSkipped: 0
+   SessionRunGroupsUsed: 0
+   SessionEnforceTireCompoundChange: 0
+   ResultsPositions:
+   ResultsFastestLap:
+   - CarIdx: 255
+     FastestLap: 0
+     FastestTime: -1.0000
+   ResultsAverageLapTime: -1.0000
+   ResultsNumCautionFlags: 0
+   ResultsNumCautionLaps: 0
+   ResultsNumLeadChanges: 0
+   ResultsLapsComplete: -1
+   ResultsOfficial: 0
+
+CameraInfo:
+ Groups:
+ - GroupNum: 1
+   GroupName: Nose
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamNose
+ - GroupNum: 2
+   GroupName: Gearbox
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamGearbox
+ - GroupNum: 3
+   GroupName: Roll Bar
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamRoll Bar
+ - GroupNum: 4
+   GroupName: LF Susp
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamLF Susp
+ - GroupNum: 5
+   GroupName: LR Susp
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamLR Susp
+ - GroupNum: 6
+   GroupName: Gyro
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamGyro
+ - GroupNum: 7
+   GroupName: RF Susp
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamRF Susp
+ - GroupNum: 8
+   GroupName: RR Susp
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamRR Susp
+ - GroupNum: 9
+   GroupName: Cockpit
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamCockpit
+ - GroupNum: 10
+   GroupName: TV3
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamTV3_00
+   - CameraNum: 2
+     CameraName: CamTV3_01
+ - GroupNum: 11
+   GroupName: TV2
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamTV2_00
+   - CameraNum: 2
+     CameraName: CamTV2_01
+ - GroupNum: 12
+   GroupName: TV1
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamTV1_00
+   - CameraNum: 2
+     CameraName: CamTV1_01
+ - GroupNum: 13
+   GroupName: Pit Lane
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamPit Lane
+ - GroupNum: 14
+   GroupName: Pit Lane 2
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamPit Lane 2
+ - GroupNum: 15
+   GroupName: Chopper
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamChopper
+ - GroupNum: 16
+   GroupName: Blimp
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamBlimp
+ - GroupNum: 17
+   GroupName: Chase
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamChase
+ - GroupNum: 18
+   GroupName: Far Chase
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamFar Chase
+ - GroupNum: 19
+   GroupName: Scenic
+   IsScenic: true
+   Cameras:
+   - CameraNum: 1
+     CameraName: Scenic 03
+   - CameraNum: 2
+     CameraName: Scenic 02
+ - GroupNum: 20
+   GroupName: Rear Chase
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamRear Chase
+
+RadioInfo:
+ SelectedRadioNum: 0
+ Radios:
+ - RadioNum: 0
+   HopCount: 2
+   NumFrequencies: 7
+   TunedToFrequencyNum: 0
+   ScanningIsOn: 1
+   Frequencies:
+   - FrequencyNum: 0
+     FrequencyName: "@ALLTEAMS"
+     Priority: 12
+     CarIdx: -1
+     EntryIdx: -1
+     ClubID: 0
+     CanScan: 1
+     CanSquawk: 1
+     Muted: 0
+     IsMutable: 1
+     IsDeletable: 0
+   - FrequencyNum: 1
+     FrequencyName: "@DRIVERS"
+     Priority: 15
+     CarIdx: -1
+     EntryIdx: -1
+     ClubID: 0
+     CanScan: 1
+     CanSquawk: 1
+     Muted: 0
+     IsMutable: 1
+     IsDeletable: 0
+   - FrequencyNum: 2
+     FrequencyName: "@TEAM"
+     Priority: 60
+     CarIdx: 0
+     EntryIdx: -1
+     ClubID: 0
+     CanScan: 1
+     CanSquawk: 1
+     Muted: 0
+     IsMutable: 0
+     IsDeletable: 0
+   - FrequencyNum: 3
+     FrequencyName: "@CLUB"
+     Priority: 20
+     CarIdx: -1
+     EntryIdx: -1
+     ClubID: 6
+     CanScan: 1
+     CanSquawk: 1
+     Muted: 0
+     IsMutable: 1
+     IsDeletable: 0
+   - FrequencyNum: 4
+     FrequencyName: "@ADMIN"
+     Priority: 90
+     CarIdx: -1
+     EntryIdx: -1
+     ClubID: 0
+     CanScan: 1
+     CanSquawk: 1
+     Muted: 0
+     IsMutable: 0
+     IsDeletable: 0
+   - FrequencyNum: 5
+     FrequencyName: "@RACECONTROL"
+     Priority: 80
+     CarIdx: -1
+     EntryIdx: -1
+     ClubID: 0
+     CanScan: 1
+     CanSquawk: 1
+     Muted: 0
+     IsMutable: 0
+     IsDeletable: 0
+   - FrequencyNum: 6
+     FrequencyName: "@PRIVATE"
+     Priority: 70
+     CarIdx: -1
+     EntryIdx: 0
+     ClubID: 0
+     CanScan: 1
+     CanSquawk: 1
+     Muted: 0
+     IsMutable: 0
+     IsDeletable: 0
+
+DriverInfo:
+ DriverCarIdx: 0
+ DriverUserID: 602738
+ PaceCarIdx: -1
+ DriverHeadPosX: 0.119
+ DriverHeadPosY: -0.165
+ DriverHeadPosZ: 0.479
+ DriverCarIdleRPM: 1350.000
+ DriverCarRedLine: 4750.000
+ DriverCarEngCylinderCount: 6
+ DriverCarFuelKgPerLtr: 0.750
+ DriverCarFuelMaxLtr: 49.867
+ DriverCarMaxFuelPct: 1.000
+ DriverCarGearNumForward: 6
+ DriverCarGearNeutral: 1
+ DriverCarGearReverse: 1
+ DriverCarSLFirstRPM: 4300.000
+ DriverCarSLShiftRPM: 4700.000
+ DriverCarSLLastRPM: 4715.000
+ DriverCarSLBlinkRPM: 4730.000
+ DriverCarVersion: 2022.05.31.03
+ DriverPitTrkPct: 0.781214
+ DriverCarEstLapTime: 11.9354
+ DriverSetupName: baseline.sto
+ DriverSetupIsModified: 0
+ DriverSetupLoadTypeName: iracing
+ DriverSetupPassedTech: 1
+ DriverIncidentCount: 0
+ Drivers:
+ - CarIdx: 0
+   UserName: Bryan Yang
+   AbbrevName: 
+   Initials: 
+   UserID: 602738
+   TeamID: 0
+   TeamName: Bryan Yang
+   CarNumber: "64"
+   CarNumberRaw: 64
+   CarPath: audir18
+   CarClassID: 0
+   CarID: 98
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: Audi R18 2016
+   CarScreenNameShort: Audi R18 2016
+   CarClassShortName: 
+   CarClassRelSpeed: 0
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 1.000 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   CarClassEstLapTime: 11.9354
+   IRating: 1
+   LicLevel: 1
+   LicSubLevel: 1
+   LicString: R 0.01
+   LicColor: 0xundefined
+   IsSpectator: 0
+   CarDesignStr: 1,FF0000,00FF00,0000FF
+   HelmetDesignStr: 1,7de54c,1f2892,ffffff
+   SuitDesignStr: 1,7de54c,1f2892,ffffff
+   CarNumberDesignStr: 0,0,FFFFFF,777777,000000
+   CarSponsor_1: 0
+   CarSponsor_2: 0
+   CurDriverIncidentCount: 0
+   TeamIncidentCount: 0
+
+SplitTimeInfo:
+ Sectors:
+ - SectorNum: 0
+   SectorStartPct: 0.000000
+ - SectorNum: 1
+   SectorStartPct: 0.500000
+
+CarSetup:
+ UpdateCount: 4
+ TiresAero:
+  LeftFrontTire:
+   StartingPressure: 117 kPa
+   LastHotPressure: 145 kPa
+   LastTempsOMI: 49C, 49C, 49C
+   TreadRemaining: 100%, 100%, 100%
+  LeftRearTire:
+   StartingPressure: 117 kPa
+   LastHotPressure: 145 kPa
+   LastTempsOMI: 49C, 49C, 49C
+   TreadRemaining: 100%, 100%, 100%
+  RightFrontTire:
+   StartingPressure: 117 kPa
+   LastHotPressure: 145 kPa
+   LastTempsIMO: 49C, 49C, 49C
+   TreadRemaining: 100%, 100%, 100%
+  RightRearTire:
+   StartingPressure: 117 kPa
+   LastHotPressure: 145 kPa
+   LastTempsIMO: 49C, 49C, 49C
+   TreadRemaining: 100%, 100%, 100%
+  AeroPackage:
+   DownforceTrim: Low
+  HighDfAeroConfig:
+   FrontWingAngle: 10.0 deg
+   MonoTvStay: ON
+   RearDeckGurney: 5 mm
+   RearWingConfig: 30P_5RGF_10RW
+   CoolingLouvers: OFF
+   CoolerExitVanes: 686
+   CableCover: 80 mm
+   FrontBrakeDucts: Base+100%DiscBlocked
+   RearBrakeDucts: 60%Blocked+50%Disc+100%DiscTop
+  LowDfAeroConfig:
+   FrontWingType: Min DF
+   FrontWingAngle: 10.0 deg
+   RearDeckGurney: 5 mm
+   RearWingAngle: 8.5 deg
+   RearWingGurneyFlap: 10 mm
+   LlkCooling: Packer 2
+   WaterCooling: Baseline
+   FrontBrakeDucts: Fully open
+   RearBrakeDucts: 60% big snorkel
+  AeroCalculator:
+   FrontRhAtSpeed: 30.0 mm
+   RearRhAtSpeed: 40.0 mm
+   FrontDfTrim: 19.8 pts
+   RearDfTrim: 47.5 pts
+   DragTrim: 5.3 pts
+   EngineCoolingTrim: 0.0%
+   FrontBrakeCoolingTrim: 0.0%
+   RearBrakeCoolingTrim: -10.0%
+   AeroBalance: 49.42%
+   DownforceToDrag: 6.662:1
+ Chassis:
+  Front:
+   HeaveSpring: 100 N/mm
+   HeaveBumpRubberLength: 5.0 mm
+   PushrodLengthOffset: 0.0 mm
+   HeavePerchOffset: 122.0 mm
+   HeavePackerThickness: 0.0 mm
+   HeaveSpringDefl: 22.4 mm 78.5 mm
+   HeaveDamperDefl: 42.0 mm 50.0 mm
+   HeaveLsCompDamping: -6 clicks
+   HeaveHsCompDamping: -11 clicks
+   HeaveLsRbdDamping: -8 clicks
+   HeaveHsRbdDamping: -6 clicks
+   RollDamping: +5 clicks
+   ArbDiameter: E
+   ArbPreload: 0.00 Nm
+   ToeIn: -1.1 mm
+  LeftFront:
+   CornerWeight: 2439 N
+   RideHeight: 50.1 mm
+   Camber: -2.8 deg
+  LeftRear:
+   CornerWeight: 2456 N
+   RideHeight: 76.3 mm
+   Camber: -2.6 deg
+   ToeIn: +0.5 mm
+  RightFront:
+   CornerWeight: 2439 N
+   RideHeight: 50.1 mm
+   Camber: -2.8 deg
+  RightRear:
+   CornerWeight: 2456 N
+   RideHeight: 76.3 mm
+   Camber: -2.6 deg
+   ToeIn: +0.5 mm
+  Rear:
+   HeaveSpring: 90 N/mm
+   HeaveBumpRubberLength: 5.0 mm
+   PullrodLengthOffset: 0.0 mm
+   HeavePerchOffset: 65.2 mm
+   HeavePackerThickness: 0.0 mm
+   HeaveSpringDefl: 25.2 mm 80.4 mm
+   HeaveDamperDefl: 23.0 mm 85.0 mm
+   HeaveLsCompDamping: -6 clicks
+   HeaveHsCompDamping: -11 clicks
+   HeaveLsRbdDamping: -8 clicks
+   HeaveHsRbdDamping: -6 clicks
+   RollSpringOD: 18.9 mm
+   RollDamping: +5 clicks
+   ArbDiameter: D
+   ArbDriveArms: Short
+   ArbPreload: -0.00 Nm
+   CrossWeight: 50.0%
+ BrakesDriveUnit:
+  Lighting:
+   NightLedStrips: Blue
+  BrakeSpecInCar:
+   PadCompound: Low
+   BrakePressureBias: 52.6%
+   IntelBrakeSys_IbsMode: 10 (IBS)
+  FrontDiffSpec:
+   CoastRampAngle: 60 deg
+   DriveRampAngle: 35 deg
+   ClutchFrictionFaces: 12
+   Preload: 20 Nm
+  PuSpecInCar:
+   HysReGenGain: 9
+   HysDeployMode: Automatic
+   HysManualDeployTrim: 12 (Mode)
+   HysManualOffset: -15.0%
+   FrontTractionControl: 6 (TCF)
+   FrontTcLateralSlip: 1.70
+   FuelMixture: 1 (MIX)
+   FuelLevel: 50.0 L
+   RearTractionControl: 6 (TC1)
+   RearTcLateralSlip: 1.60
+  GearRatios:
+   FrontFinalDrive: 6.333
+   RearFinalDrive: 3.300
+   FirstGear: 1.728, 110.8 Km/h
+   SecondGear: 1.259, 152.0 Km/h
+   ThirdGear: 0.940, 203.6 Km/h
+   FourthGear: 0.737, 259.7 Km/h
+   FifthGear: 0.596, 321.1 Km/h
+   SixthGear: 0.493, 388.2 Km/h
+  RearDiffSpec:
+   CoastRampAngle: 20 deg
+   ClutchFrictionFaces: 12
+
+...
+AirDensity                      1.1598443984985352
+AirPressure                     28.864118576049805
+AirTemp                         18.33333396911621
+Brake                           0.0
+BrakeABSactive                  False
+BrakeRaw                        0.0
+CamCameraNumber                 1
+CamCameraState                  80
+CamCarIdx                       0
+CamGroupNumber                  9
+CarIdxBestLapNum                [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+CarIdxBestLapTime               [-1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0]
+CarIdxClass                     [0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0]
+CarIdxClassPosition             [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+CarIdxEstTime                   [0.35054102540016174, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+CarIdxF2Time                    [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+CarIdxFastRepairsUsed           [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+CarIdxGear                      [1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+CarIdxLap                       [1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+CarIdxLapCompleted              [0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+CarIdxLapDistPct                [0.03041149117052555, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0]
+CarIdxLastLapTime               [-1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0]
+CarIdxOnPitRoad                 [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
+CarIdxP2P_Count                 [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+CarIdxP2P_Status                [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
+CarIdxPaceFlags                 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+CarIdxPaceLine                  [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+CarIdxPaceRow                   [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+CarIdxPosition                  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+CarIdxQualTireCompound          [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+CarIdxQualTireCompoundLocked    [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
+CarIdxRPM                       [1255.5797119140625, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0]
+CarIdxSessionFlags              [262144, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+CarIdxSteer                     [0.12587130069732666, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+CarIdxTireCompound              [0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+CarIdxTrackSurface              [3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+CarIdxTrackSurfaceMaterial      [1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+CarLeftRight                    1
+ChanAvgLatency                  0.0
+ChanClockSkew                   0.0
+ChanLatency                     0.0
+ChanPartnerQuality              0.0
+ChanQuality                     0.0
+Clutch                          1.0
+CpuUsageBG                      0.09899970144033432
+CpuUsageFG                      0.14369769394397736
+dcABS                           10.0
+dcBrakeBias                     52.599998474121094
+dcDashPage                      1.0
+DCDriversSoFar                  1
+dcEnginePower                   1.0
+dcFCYToggle                     False
+dcFuelCutPosition               0.0
+dcFuelNoCutToggle               False
+dcHeadlightFlash                False
+dcHysBoostHold                  False
+dcHysNoBoostToggle              False
+dcInLapToggle                   False
+DCLapStatus                     2
+dcLowFuelAccept                 False
+dcMGUKDeployFixed               12.0
+dcMGUKDeployMode                1.0
+dcMGUKRegenGain                 9.0
+dcPitSpeedLimiterToggle         False
+dcStarter                       False
+dcTractionControl               6.0
+dcTractionControl2              6.0
+dcTractionControl3              1.5999999046325684
+dcTractionControl4              1.7000000476837158
+dcTractionControlToggle         False
+DisplayUnits                    1
+dpFastRepair                    0.0
+dpFuelAddKg                     0.0
+dpFuelFill                      0.0
+dpLFTireChange                  0.0
+dpLFTireColdPress               117.21087646484375
+dpLRTireChange                  0.0
+dpLRTireColdPress               117.21087646484375
+dpPowerSteering                 1.0
+dpRFTireChange                  0.0
+dpRFTireColdPress               117.21087646484375
+dpRRTireChange                  0.0
+dpRRTireColdPress               117.21087646484375
+dpWindshieldTearoff             0.0
+DriverMarker                    False
+EnergyBatteryToMGU_KLap         0.0
+EnergyERSBattery                2000000.0
+EnergyERSBatteryPct             1.0
+EnergyMGU_KLapDeployPct         0.0
+EngineWarnings                  0
+EnterExitReset                  2
+FastRepairAvailable             0
+FastRepairUsed                  0
+FogLevel                        0.0
+FrameRate                       82.08936309814453
+FrontTireSetsAvailable          1
+FrontTireSetsUsed               0
+FuelLevel                       49.84682083129883
+FuelLevelPct                    0.9996020197868347
+FuelPress                       3.7899999618530273
+FuelUsePerHour                  1.088829755783081
+Gear                            1
+GpuUsage                        0.3323354423046112
+HandbrakeRaw                    0.0
+HFshockDefl                     0.04241897165775299
+HFshockDefl_ST                  [0.04241884872317314, 0.04241906479001045, 0.04241909459233284, 0.04241875559091568, 0.042419373989105225, 0.04241897165775299]
+HFshockVel                      8.912965313356835e-06
+HFshockVel_ST                   [2.9519984309445135e-05, 2.9871571314288303e-05, 2.935102747869678e-05, 9.113928172155283e-07, 3.1912011763779446e-05, 8.912965313356835e-06]
+HRshockDefl                     0.023599471896886826
+HRshockDefl_ST                  [0.023599378764629364, 0.0235995315015316, 0.023599592968821526, 0.023599257692694664, 0.023599836975336075, 0.023599471896886826]
+HRshockVel                      -5.5182023061206564e-05
+HRshockVel_ST                   [-4.1340379539178684e-05, -3.996570740127936e-05, -3.9708989788778126e-05, -6.240020593395457e-05, -2.9675093173864298e-05, -5.5182023061206564e-05]
+IsDiskLoggingActive             True
+IsDiskLoggingEnabled            True
+IsInGarage                      False
+IsOnTrack                       True
+IsOnTrackCar                    True
+IsReplayPlaying                 False
+Lap                             1
+LapBestLap                      0
+LapBestLapTime                  0.0
+LapBestNLapLap                  0
+LapBestNLapTime                 0.0
+LapCompleted                    0
+LapCurrentLapTime               12.350632667541504
+LapDeltaToBestLap               0.0
+LapDeltaToBestLap_DD            0.0
+LapDeltaToBestLap_OK            False
+LapDeltaToOptimalLap            0.0
+LapDeltaToOptimalLap_DD         0.0
+LapDeltaToOptimalLap_OK         False
+LapDeltaToSessionBestLap        0.0
+LapDeltaToSessionBestLap_DD     0.0
+LapDeltaToSessionBestLap_OK     False
+LapDeltaToSessionLastlLap       0.0
+LapDeltaToSessionLastlLap_DD    0.0
+LapDeltaToSessionLastlLap_OK    False
+LapDeltaToSessionOptimalLap     0.0
+LapDeltaToSessionOptimalLap_DD  0.0
+LapDeltaToSessionOptimalLap_OK  False
+LapDist                         22.025054931640625
+LapDistPct                      0.03041149117052555
+LapLasNLapSeq                   0
+LapLastLapTime                  0.0
+LapLastNLapTime                 0.0
+LatAccel                        0.14529775083065033
+LatAccel_ST                     [0.12457682192325592, 0.12745465338230133, 0.12954270839691162, 0.1333896666765213, 0.1391412317752838, 0.14529775083065033]
+LeftTireSetsAvailable           1
+LeftTireSetsUsed                0
+LFbrakeLinePress                0.0
+LFcoldPressure                  117.21088409423828
+LFtempCL                        48.87994384765625
+LFtempCM                        48.87994384765625
+LFtempCR                        48.87994384765625
+LFTiresAvailable                1
+LFTiresUsed                     0
+LFwearL                         1.0
+LFwearM                         1.0
+LFwearR                         1.0
+LoadNumTextures                 False
+LongAccel                       -0.018955059349536896
+LongAccel_ST                    [-0.014098472893238068, -0.01325305551290512, -0.013852439820766449, -0.013534046709537506, -0.013527683913707733, -0.018955059349536896]
+LRbrakeLinePress                0.0
+LRcoldPressure                  117.21088409423828
+LRtempCL                        48.87994384765625
+LRtempCM                        48.87994384765625
+LRtempCR                        48.87994384765625
+LRTiresAvailable                1
+LRTiresUsed                     0
+LRwearL                         1.0
+LRwearM                         1.0
+LRwearR                         1.0
+ManifoldPress                   0.9914900064468384
+ManualBoost                     False
+ManualNoBoost                   False
+MemPageFaultSec                 0.0
+OilLevel                        9.0
+OilPress                        3.9102730751037598
+OilTemp                         77.24394226074219
+OkToReloadTextures              True
+OnPitRoad                       False
+PaceMode                        4
+Pitch                           0.008678254671394825
+PitchRate                       1.2894597603008151e-05
+PitchRate_ST                    [-5.752514425694244e-06, -3.1204192509903805e-06, 2.2364643825767416e-07, 4.218349658913212e-06, 8.638457074994221e-06, 1.2894597603008151e-05]
+PitOptRepairLeft                0.0
+PitRepairLeft                   0.0
+PitsOpen                        True
+PitstopActive                   False
+PitSvFlags                      0
+PitSvFuel                       0.0
+PitSvLFP                        117.21088409423828
+PitSvLRP                        117.21088409423828
+PitSvRFP                        117.21088409423828
+PitSvRRP                        117.21088409423828
+PitSvTireCompound               0
+PlayerCarClass                  0
+PlayerCarClassPosition          0
+PlayerCarDriverIncidentCount    0
+PlayerCarDryTireSetLimit        0
+PlayerCarIdx                    0
+PlayerCarInPitStall             False
+PlayerCarMyIncidentCount        0
+PlayerCarPitSvStatus            0
+PlayerCarPosition               0
+PlayerCarPowerAdjust            0.0
+PlayerCarTeamIncidentCount      0
+PlayerCarTowTime                0.0
+PlayerCarWeightPenalty          0.0
+PlayerFastRepairsUsed           0
+PlayerTireCompound              0
+PlayerTrackSurface              3
+PlayerTrackSurfaceMaterial      1
+PowerMGU_H                      0.0
+PowerMGU_K                      0.0
+PushToPass                      False
+RaceLaps                        1
+RadioTransmitCarIdx             -1
+RadioTransmitFrequencyIdx       0
+RadioTransmitRadioIdx           0
+RearTireSetsAvailable           1
+RearTireSetsUsed                0
+RelativeHumidity                0.8874261975288391
+ReplayFrameNum                  0
+ReplayFrameNumEnd               2363
+ReplayPlaySlowMotion            False
+ReplayPlaySpeed                 1
+ReplaySessionNum                -1
+ReplaySessionTime               0.0
+RFbrakeLinePress                0.0
+RFcoldPressure                  117.21088409423828
+RFtempCL                        48.87994384765625
+RFtempCM                        48.87994384765625
+RFtempCR                        48.87994384765625
+RFTiresAvailable                1
+RFTiresUsed                     0
+RFwearL                         1.0
+RFwearM                         1.0
+RFwearR                         1.0
+RightTireSetsAvailable          1
+RightTireSetsUsed               0
+Roll                            7.731303776381537e-05
+ROLLFshockDefl                  -0.00010117888450622559
+ROLLFshockDefl_ST               [-0.00010535120964050293, -0.00010418891906738281, -0.00010314583778381348, -0.0001023411750793457, -0.0001016855239868164, -0.00010117888450622559]
+ROLLFshockVel                   0.0001501831429777667
+ROLLFshockVel_ST                [0.0004270911740604788, 0.0003946517826989293, 0.00031303559080697596, 0.0002593073877505958, 0.0002083558647427708, 0.0001501831429777667]
+RollRate                        -0.0005345914978533983
+RollRate_ST                     [-0.0009869039058685303, -0.0009747421136125922, -0.0008852269384078681, -0.0007722154259681702, -0.0006582675850950181, -0.0005345914978533983]
+ROLLRshockDefl                  -3.784894943237305e-05
+ROLLRshockDefl_ST               [-4.1097402572631836e-05, -4.0471553802490234e-05, -3.9696693420410156e-05, -3.883242607116699e-05, -3.826618194580078e-05, -3.784894943237305e-05]
+ROLLRshockVel                   8.763512596487999e-05
+ROLLRshockVel_ST                [0.0002561403962317854, 0.0002740897471085191, 0.00029139628168195486, 0.0002464197750668973, 0.00016869216051418334, 8.763512596487999e-05]
+RPM                             1255.5797119140625
+RRbrakeLinePress                0.0
+RRcoldPressure                  117.21088409423828
+RRtempCL                        48.87994384765625
+RRtempCM                        48.87994384765625
+RRtempCR                        48.87994384765625
+RRTiresAvailable                1
+RRTiresUsed                     0
+RRwearL                         1.0
+RRwearM                         1.0
+RRwearR                         1.0
+SessionFlags                    268698112
+SessionJokerLapsRemain          0
+SessionLapsRemain               32767
+SessionLapsRemainEx             32767
+SessionLapsTotal                32767
+SessionNum                      0
+SessionOnJokerLap               False
+SessionState                    4
+SessionTick                     3756
+SessionTime                     61.38333269754818
+SessionTimeOfDay                67261.0
+SessionTimeRemain               604800.0
+SessionTimeTotal                604800.0
+SessionUniqueID                 1
+ShiftGrindRPM                   0.0
+ShiftIndicatorPct               0.0
+ShiftPowerPct                   0.0
+Skies                           0
+SolarAltitude                   0.4224456548690796
+SolarAzimuth                    4.866125106811523
+Speed                           7.944823741912842
+SteeringWheelAngle              0.12587130069732666
+SteeringWheelAngleMax           11.250381469726562
+SteeringWheelLimiter            0.0
+SteeringWheelMaxForceNm         50.44510269165039
+SteeringWheelPctDamper          0.0
+SteeringWheelPctTorque          0.018544627353549004
+SteeringWheelPctTorqueSign      -0.018544627353549004
+SteeringWheelPctTorqueSignStops -0.018544627353549004
+SteeringWheelPeakForceNm        -1.0
+SteeringWheelTorque             -0.9302525520324707
+SteeringWheelTorque_ST          [-0.9163373708724976, -0.9334676265716553, -0.9513927102088928, -0.9469985365867615, -0.9370385408401489, -0.9302525520324707]
+SteeringWheelUseLinear          True
+Throttle                        0.0
+ThrottleRaw                     0.0
+TireLF_RumblePitch              0.0
+TireLR_RumblePitch              0.0
+TireRF_RumblePitch              0.0
+TireRR_RumblePitch              0.0
+TireSetsAvailable               1
+TireSetsUsed                    0
+TorqueMGU_K                     0.0
+TrackTemp                       33.333343505859375
+TrackTempCrew                   33.333343505859375
+VelocityX                       7.944770336151123
+VelocityX_ST                    [7.943784713745117, 7.943984508514404, 7.944183826446533, 7.9443864822387695, 7.944581985473633, 7.944770336151123]
+VelocityY                       0.02907562255859375
+VelocityY_ST                    [0.029227495193481445, 0.029175758361816406, 0.02913045883178711, 0.029096126556396484, 0.029076337814331055, 0.02907562255859375]
+VelocityZ                       0.06895128637552261
+VelocityZ_ST                    [0.06893902271986008, 0.06894100457429886, 0.06894315779209137, 0.06894601136445999, 0.06894651800394058, 0.06895128637552261]
+VertAccel                       9.807900428771973
+VertAccel_ST                    [9.806802749633789, 9.807023048400879, 9.807051658630371, 9.807279586791992, 9.806405067443848, 9.807900428771973]
+VidCapActive                    False
+VidCapEnabled                   False
+Voltage                         13.40000057220459
+WaterLevel                      1.5
+WaterTemp                       71.54814147949219
+WeatherType                     1
+WindDir                         5.952455520629883
+WindVel                         0.9642497301101685
+Yaw                             0.39578118920326233
+YawNorth                        1.1750158071517944
+YawRate                         0.018246646970510483
+YawRate_ST                      [0.018270904198288918, 0.018255870789289474, 0.018256794661283493, 0.018260572105646133, 0.018256230279803276, 0.018246646970510483]
