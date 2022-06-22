@@ -33,7 +33,7 @@ def loop(ir, url):
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
-  parser.add_argument('--url', help='url of the api to post telemetry to', required=true)
+  parser.add_argument('--url', help='url of the api to post telemetry to', required=True)
 
   args = parser.parse_args()
 
