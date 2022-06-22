@@ -455,7 +455,7 @@ class IRSDK:
       return results
 
     def get_json(self):
-      session_yml = self._shared_mem[self._header.session_info_offset:self._header.session_info_len].rstrip(b'\x00')
+      session_yml = self._shared_mem[self._header.session_info_offset:self._header.session_info_len].rstrip(b'\x00').decode(YAML_CODE_PAGE)
       telemetry_json = json.dumps(self.to_dict(), indent=2)
       return {
         "Static": yaml.load(session_yml, Loader=CustomYamlSafeLoader),
