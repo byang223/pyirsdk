@@ -453,18 +453,21 @@ class IRSDK:
       for i in sorted(self._var_headers_dict.keys(), key=str.lower):
         results[i] = self[i]
       return results
+
+    def get_json(self):
+      session_yml = self._shared_mem[self._header.session_info_offset:self._header.session_info_len].rstrip(b'\x00')
+      telemetry_json = json.dumps(self.to_dict(), indent=2)
+      return {
+        "Static": yaml.load(session_yml, Loader=CustomYamlSafeLoader),
+        "Telemetry": self.to_dict(),
+      }
     
     def parse_to_json(self, to_file):
         if not self.is_initialized:
             return
         f = open(to_file, 'w', encoding='utf-8')
-        session_yml = self._shared_mem[self._header.session_info_offset:self._header.session_info_len].rstrip(b'\x00')
-        telemetry_json = json.dumps(self.to_dict(), indent=2)
-        combined = {
-          "Static": yaml.load(session_yml, Loader=CustomYamlSafeLoader),
-          "Telemetry": self.to_dict(),
-        }
-        json.dump(combined, f, indent=2)
+        f = open(to_file, 'w', encoding='utf-8')
+        json.dump(self.get_json(), f, indent=2)
         f.close()
 
     def cam_switch_pos(self, position=0, group=1, camera=0):

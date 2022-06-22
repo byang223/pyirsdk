@@ -11,3 +11,5 @@ test_*.py
 tutorial_*.py
 setup.cfg
 *.bat
+
+.DS_Store
