@@ -6,6 +6,7 @@ import mmap
 import struct
 import ctypes
 import yaml
+import json
 from threading import Thread
 from urllib import request, error
 from yaml.reader import Reader as YamlReader
@@ -447,6 +448,28 @@ class IRSDK:
         ]))
         f.close()
 
+    def to_dict(self):
+      results = {}
+      for i in sorted(self._var_headers_dict.keys(), key=str.lower):
+        results[i] = self[i]
+      return results
+
+    def get_json(self):
+      session_yml = self._shared_mem[self._header.session_info_offset:self._header.session_info_len].rstrip(b'\x00').decode(YAML_CODE_PAGE)
+      telemetry_json = json.dumps(self.to_dict(), indent=2)
+      return {
+        "Static": yaml.load(session_yml, Loader=CustomYamlSafeLoader),
+        "Telemetry": self.to_dict(),
+      }
+    
+    def parse_to_json(self, to_file):
+        if not self.is_initialized:
+            return
+        f = open(to_file, 'w', encoding='utf-8')
+        f = open(to_file, 'w', encoding='utf-8')
+        json.dump(self.get_json(), f, indent=2)
+        f.close()
+
     def cam_switch_pos(self, position=0, group=1, camera=0):
         return self._broadcast_msg(BroadcastMsg.cam_switch_pos, position, group, camera)
 
@@ -768,7 +791,7 @@ def main():
     ir.startup(test_file=args.test, dump_to=args.dump)
 
     if args.parse:
-        ir.parse_to(args.parse)
+        ir.parse_to_json(args.parse)
 
 if __name__ == '__main__':
     main()

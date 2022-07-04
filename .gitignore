@@ -4,10 +4,10 @@ dist
 pyirsdk.egg-info
 MANIFEST
 *.pyc
-*.bin
-*.txt
 test_*.py
 *.ibt
 tutorial_*.py
 setup.cfg
 *.bat
+
+.DS_Store
